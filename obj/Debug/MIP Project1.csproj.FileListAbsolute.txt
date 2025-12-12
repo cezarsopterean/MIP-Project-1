@@ -1,0 +1,15 @@
+C:\Users\Cezar\source\repos\MIP Project1\MIP Project1\bin\Debug\MIP Project1.exe.config
+C:\Users\Cezar\source\repos\MIP Project1\MIP Project1\bin\Debug\MIP Project1.exe
+C:\Users\Cezar\source\repos\MIP Project1\MIP Project1\bin\Debug\MIP Project1.pdb
+C:\Users\Cezar\source\repos\MIP Project1\MIP Project1\obj\Debug\MIP Project1.csproj.AssemblyReference.cache
+C:\Users\Cezar\source\repos\MIP Project1\MIP Project1\obj\Debug\MIP_Project1.Form1.resources
+C:\Users\Cezar\source\repos\MIP Project1\MIP Project1\obj\Debug\MIP_Project1.Properties.Resources.resources
+C:\Users\Cezar\source\repos\MIP Project1\MIP Project1\obj\Debug\MIP Project1.csproj.GenerateResource.cache
+C:\Users\Cezar\source\repos\MIP Project1\MIP Project1\obj\Debug\MIP Project1.csproj.CoreCompileInputs.cache
+C:\Users\Cezar\source\repos\MIP Project1\MIP Project1\obj\Debug\MIP Project1.exe
+C:\Users\Cezar\source\repos\MIP Project1\MIP Project1\obj\Debug\MIP Project1.pdb
+C:\Users\Cezar\source\repos\MIP Project1\MIP Project1\obj\Debug\MIP Project1.exe.config
+C:\Users\Cezar\source\repos\MIP Project1\MIP Project1\obj\Debug\MIP_Project1.Form2.resources
+C:\Users\Cezar\source\repos\MIP Project1\MIP Project1\obj\Debug\MIP Proj.05CA3A89.Up2Date
+C:\Users\Cezar\source\repos\MIP Project1\MIP Project1\bin\Debug\System.Data.SQLite.dll
+C:\Users\Cezar\source\repos\MIP Project1\MIP Project1\bin\Debug\System.Data.SQLite.xml
