@@ -59,9 +59,9 @@
             this.tsbForward,
             this.tstb,
             this.tsbGO});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 28);
+            this.toolStrip1.Location = new System.Drawing.Point(0, 30);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(800, 27);
+            this.toolStrip1.Size = new System.Drawing.Size(800, 31);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -71,7 +71,7 @@
             this.tsbHome.Image = ((System.Drawing.Image)(resources.GetObject("tsbHome.Image")));
             this.tsbHome.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbHome.Name = "tsbHome";
-            this.tsbHome.Size = new System.Drawing.Size(29, 24);
+            this.tsbHome.Size = new System.Drawing.Size(29, 28);
             this.tsbHome.Text = "toolStripHome";
             this.tsbHome.Click += new System.EventHandler(this.tsbHome_Click);
             // 
@@ -81,7 +81,7 @@
             this.tsbBack.Image = ((System.Drawing.Image)(resources.GetObject("tsbBack.Image")));
             this.tsbBack.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbBack.Name = "tsbBack";
-            this.tsbBack.Size = new System.Drawing.Size(29, 24);
+            this.tsbBack.Size = new System.Drawing.Size(29, 28);
             this.tsbBack.Text = "toolStripBack";
             this.tsbBack.Click += new System.EventHandler(this.tsbBack_Click);
             // 
@@ -91,7 +91,7 @@
             this.tsbForward.Image = ((System.Drawing.Image)(resources.GetObject("tsbForward.Image")));
             this.tsbForward.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbForward.Name = "tsbForward";
-            this.tsbForward.Size = new System.Drawing.Size(29, 24);
+            this.tsbForward.Size = new System.Drawing.Size(29, 28);
             this.tsbForward.Text = "toolStripForward";
             this.tsbForward.Click += new System.EventHandler(this.tsbForward_Click);
             // 
@@ -100,7 +100,7 @@
             this.tstb.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tstb.MaxLength = 5000;
             this.tstb.Name = "tstb";
-            this.tstb.Size = new System.Drawing.Size(300, 27);
+            this.tstb.Size = new System.Drawing.Size(300, 31);
             this.tstb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tstb_KeyPress);
             // 
             // tsbGO
@@ -109,17 +109,17 @@
             this.tsbGO.Image = ((System.Drawing.Image)(resources.GetObject("tsbGO.Image")));
             this.tsbGO.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbGO.Name = "tsbGO";
-            this.tsbGO.Size = new System.Drawing.Size(29, 24);
+            this.tsbGO.Size = new System.Drawing.Size(29, 28);
             this.tsbGO.Text = "GO";
             this.tsbGO.Click += new System.EventHandler(this.tsbGO_Click);
             // 
             // webBrowser
             // 
             this.webBrowser.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.webBrowser.Location = new System.Drawing.Point(0, 55);
+            this.webBrowser.Location = new System.Drawing.Point(0, 61);
             this.webBrowser.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser.Name = "webBrowser";
-            this.webBrowser.Size = new System.Drawing.Size(800, 395);
+            this.webBrowser.Size = new System.Drawing.Size(800, 389);
             this.webBrowser.TabIndex = 1;
             this.webBrowser.Navigating += new System.Windows.Forms.WebBrowserNavigatingEventHandler(this.webBrowser_Navigating);
             // 
@@ -130,7 +130,7 @@
             this.keywordsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(800, 30);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -143,21 +143,21 @@
             this.toolStripComboBox,
             this.deleteKeywordButton});
             this.keywordsToolStripMenuItem.Name = "keywordsToolStripMenuItem";
-            this.keywordsToolStripMenuItem.Size = new System.Drawing.Size(87, 24);
+            this.keywordsToolStripMenuItem.Size = new System.Drawing.Size(87, 26);
             this.keywordsToolStripMenuItem.Text = "Keywords";
             // 
             // keywordAddButton
             // 
             this.keywordAddButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.keywordAddButton.Name = "keywordAddButton";
-            this.keywordAddButton.Size = new System.Drawing.Size(224, 26);
+            this.keywordAddButton.Size = new System.Drawing.Size(198, 26);
             this.keywordAddButton.Text = "Add";
             this.keywordAddButton.Click += new System.EventHandler(this.keywordAddButton_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(221, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(195, 6);
             // 
             // labelToolStripMenuItem
             // 
@@ -176,7 +176,7 @@
             // deleteKeywordButton
             // 
             this.deleteKeywordButton.Name = "deleteKeywordButton";
-            this.deleteKeywordButton.Size = new System.Drawing.Size(224, 26);
+            this.deleteKeywordButton.Size = new System.Drawing.Size(198, 26);
             this.deleteKeywordButton.Text = "Delete Keyword";
             this.deleteKeywordButton.Visible = false;
             this.deleteKeywordButton.Click += new System.EventHandler(this.deleteKeywordButton_Click);

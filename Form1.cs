@@ -69,14 +69,13 @@ namespace MIP_Project1
                 DBconnect.Close();
             }
 
-            public void AddKeyword(string k)
+            public async Task AddKeywordAsync(string k)
             {
                 using (var cmd = DBconnect.CreateCommand())
                 {
                     cmd.CommandText = "INSERT INTO Keywords (keyword) VALUES (@k)";
                     cmd.Parameters.AddWithValue("@k", k);
-                    cmd.ExecuteNonQuery();
-
+                    cmd.ExecuteNonQueryAsync();
                 }
             }
 
@@ -196,7 +195,7 @@ namespace MIP_Project1
             keywords = null;
         }
 
-        private void keywordAddButton_Click(object sender, EventArgs e)
+        private async void keywordAddButton_Click(object sender, EventArgs e)
         {
             Form2 frm2 = new Form2();
             frm2.ShowDialog(this);
@@ -211,7 +210,7 @@ namespace MIP_Project1
                 {
                     toolStripComboBox.Items.Add(form2text);
                     database.ConnectToDB("BlockedKeywords.db");
-                    database.AddKeyword(form2text);
+                    await database.AddKeywordAsync(form2text);
                     database.DisconnectFromDB();
                 }
                 frm2.Close();
@@ -239,8 +238,5 @@ namespace MIP_Project1
             keywords = null;
             deleteKeywordButton.Visible = false;
         }
-
-
-
     }
 }
