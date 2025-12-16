@@ -197,7 +197,7 @@ namespace MIP_Project1
 
         private async void keywordAddButton_Click(object sender, EventArgs e)
         {
-            Form2 frm2 = new Form2();
+            Form2 frm2 = new Form2(database);
             frm2.ShowDialog(this);
             if(frm2.DialogResult == DialogResult.Cancel)
             {

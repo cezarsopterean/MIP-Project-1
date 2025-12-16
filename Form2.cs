@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SQLite;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,11 +13,12 @@ namespace MIP_Project1
 {
     public partial class Form2 : Form
     {
-        string[] blockedList;  int n;
+        Form1.SQLiteHandler database;
 
-        public Form2()
+        public Form2(Form1.SQLiteHandler database)
         {
             InitializeComponent();
+            this.database = database;
         }
 
         private void cancelButton_Click(object sender, EventArgs e)
@@ -40,16 +42,23 @@ namespace MIP_Project1
             }
 
             bool dupe = false;
-            for(int i = 0; i < n; i++)
+            database.ConnectToDB("BlockedKeywords.db");
+            List<string> keywords = database.GetAllKeywords(); 
+            for(int i = 0; i < keywords.Count(); i++)
             {
-                if(textBox.Text == blockedList[i])
+                if(textBox.Text == keywords[i])
                 {
-                    errorProvider.SetError(textBox, "Keyword is duplicate");
                     dupe = true;
                     break;
                 }
             }
-
+            keywords.Clear();
+            keywords = null;
+            if(dupe)
+            {
+                errorProvider.SetError(textBox, "Keyword is duplicate");
+            }
+            
             if(textBox.TextLength > 0 && textBox.TextLength < 64 && !dupe)
             {
                 DialogResult = DialogResult.OK; 
