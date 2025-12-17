@@ -54,6 +54,7 @@ namespace MIP_Project1
             }
             keywords.Clear();
             keywords = null;
+            database.DisconnectFromDB();
             if(dupe)
             {
                 errorProvider.SetError(textBox, "Keyword is duplicate");
